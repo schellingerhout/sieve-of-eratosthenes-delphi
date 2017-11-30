@@ -1,3 +1,10 @@
+//  
+// Copyright (c) Jasper Schellingerhout. All rights reserved.  
+// Licensed under the MIT License. See LICENSE file in the project root for full license information.  
+//
+// I kindly request that you notify me if you use this in your software projects.
+// Project located at: https://github.com/schellingerhout/active-object-delphi
+
 unit SieveOfErastothenos;
 
 interface
@@ -113,12 +120,12 @@ begin
   for i := 1 to FMaxBlockIndex do
   begin
    // other blocks have repeat(0101)
-    FValueBitField[0] := UInt64($5555555555555555);
+    FValueBitField[i] := UInt64($5555555555555555);
   end;
   
   LPrime := 3;
   repeat
-    LMultiple := 2;
+    LMultiple := LPrime;
     LNonPrime := LPrime * LMultiple;
     while LNonPrime <= FMaxValue do
     begin
