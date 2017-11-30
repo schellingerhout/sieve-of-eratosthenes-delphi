@@ -118,7 +118,7 @@ begin
   
   LPrime := 3;
   repeat
-    LMultiple := 2;
+    LMultiple := LPrime;
     LNonPrime := LPrime * LMultiple;
     while LNonPrime <= FMaxValue do
     begin
