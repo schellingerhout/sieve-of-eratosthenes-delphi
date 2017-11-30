@@ -113,7 +113,7 @@ begin
   for i := 1 to FMaxBlockIndex do
   begin
    // other blocks have repeat(0101)
-    FValueBitField[0] := UInt64($5555555555555555);
+    FValueBitField[i] := UInt64($5555555555555555);
   end;
   
   LPrime := 3;
