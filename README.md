@@ -1,4 +1,4 @@
-# Sieve-of-Erastothenos-Delphi
+# Sieve-of-Eratosthenes-Delphi
 A simple implementation of the Sieve of Erastothenos for finding primes. 
 
 Very fast but memory intensive... can calculate primes up to Max(UInt32). This is the straight forward implementation, optimized as I could find, but the segmented method may allow faster implementation over multiple threads. Fork and contribute if you'd like
