@@ -3,7 +3,7 @@
 // Licensed under the MIT License. See LICENSE file in the project root for full license information.  
 //
 // I kindly request that you notify me if you use this in your software projects.
-// Project located at: https://github.com/schellingerhout/active-object-delphi
+// Project located at: https://github.com/schellingerhout/sieve-of-erastothenos-delphi/
 
 unit SieveOfErastothenos;
 
