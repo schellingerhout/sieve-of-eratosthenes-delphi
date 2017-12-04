@@ -16,4 +16,4 @@ begin
 end;
 ```
 
-MIT license, attribution ... etc.
+There is still quite of optimization to be done. Feel free to fork and issue pull requests for improvements.
