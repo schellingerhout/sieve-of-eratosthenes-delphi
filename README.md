@@ -3,6 +3,7 @@ A simple implementation of the Sieve of Erastothenos for finding primes.
 
 Very fast but memory intensive... can calculate primes up to Max(UInt32). This is the straight forward implementation, optimized as I could find, but the segmented method may allow faster implementation over multiple threads. Fork and contribute if you'd like
 
+For details see https://schellingerhout.github.io/algorithms/sieve-of-eratosthenes/
 
 usage
 
@@ -16,4 +17,4 @@ begin
 end;
 ```
 
-There is still quite of optimization to be done. Feel free to fork and issue pull requests for improvements.
+There is still quite a bit of optimization to be done. Feel free to fork and issue pull requests for improvements.
